@@ -1,0 +1,28 @@
+@use 'sass:math';
+$containerWidth:1476;
+$containerPadding:40;
+$containerSidePadding: math.div($containerPadding, 2);
+$breakPoint1200:1199.98 + px;
+$breakPoint992:991.98 + px;
+$breakPoint768:767.98 + px;
+$breakPoint480:479.98 + px;
+
+@media (max-width: $breakPoint1200) {
+    
+}
+@media (max-width: $breakPoint992) {
+    
+}
+@media (max-width: $breakPoint768) {
+    
+}
+@media (max-width: $breakPoint480) {
+    
+}
+
+body {
+    background-color: white;
+}
+
+$brand:black;
+$gray:#ffffff85;
